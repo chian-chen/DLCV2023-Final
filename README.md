@@ -15,7 +15,7 @@ We provide a 'DLCV_final.pdf' file, which outlines our conceptual framework and 
 sh installation.sh
 ```
 
-# How to run your code?
+# How to run our code
 
 **Prepare dataset**
 ```shell script=
@@ -42,14 +42,14 @@ sh get_weight.sh
 sh test_set_inference.sh
 ```
 
-**Post Process**
+**Post Processing**
 ```shell script=
 python3 post_processing.py
 # CLIP post processing (Not used in final submission)
 sh inference_predict_clip.sh
 ```
 
-# Results (on val set) :
+# Results (on val set)
 
 Baseline:
 
@@ -101,13 +101,3 @@ We also provide the evaluation for you to check the performance (stAP) on valida
     python3 evaluate_vq.py --gt-file <gt-file> --pred-file <pred-file>
 
 Note that you should replace `<gt-file>` with your val annotation file (e.g. `vq_val.json`) and replace `<pred-file>` with your output prediction file (e.g. `pred.json`)  
-
-# Submission Rules
-### Deadline
-112/12/28 (Thur.) 23:59 (GMT+8)
-    
-# Q&A
-If you have any problems related to Final Project, you may
-- Use TA hours
-- Contact TAs by e-mail ([ntudlcv@gmail.com](mailto:ntudlcv@gmail.com))
-- Post your question under `[Final challenge 2] VQ2D discussion` section in NTU Cool Discussion
