@@ -1,0 +1,2 @@
+python3 inference_predict.py --cfg ./config/val.yaml --eval 
+python3 inference_results.py --cfg ./config/val.yaml --output_path pred.json --inference_path output/ego4d_vq2d/val/validate/inference_cache_eval --eval 

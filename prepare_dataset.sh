@@ -1,0 +1,2 @@
+python3 prepare_dataset/convert_videos_to_images.py --annot-paths ./DLCV_vq2d_data/vq_train.json --save-root ./DLCV_vq2d_data/images/train
+python3 prepare_dataset/convert_videos_to_images.py --annot-paths ./DLCV_vq2d_data/vq_val.json --save-root ./DLCV_vq2d_data/images/val

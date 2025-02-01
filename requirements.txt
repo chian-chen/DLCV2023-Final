@@ -1,0 +1,11 @@
+opencv-python
+imageio
+numpy==1.23.5
+PIMS
+pandas
+tqdm
+av
+einops
+imagesize
+ftfy
+regex
